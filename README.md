@@ -1,2 +1,2 @@
-# Login-page
-php, css, html, JS
+# Web-Developer-Vacancy-Test-Task
+ login/registration page from PSD

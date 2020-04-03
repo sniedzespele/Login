@@ -1,0 +1,297 @@
+*{ padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+   
+body {
+    background-image: url('img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    .all {
+        display: grid;
+        grid-template-columns:216px auto auto 216px;
+        grid-template-rows:auto auto auto auto;
+        grid-template-areas: 
+        "header header header header"
+        "container container container container"
+        "footer footer footer footer";
+        justify-self: center;
+        margin-top: 190px;
+    }
+
+    .container {
+        display: grid;
+        grid-area: container;
+        height: 500px;
+        font-size: 20px;
+        color:#ffffff;
+        text-align: center;
+        justify-self: center;
+        
+         
+    }
+    .registrate{
+        position: absolute;
+        height: 440px;
+        width: 440px;
+        justify-self: left;
+        text-align: left;
+        padding-left: 80px;
+        
+    
+    }
+    
+    .signupbtn1{
+        
+        border-color: #3578b4;
+        border-style:solid;
+        text-align: center;
+        text-transform: uppercase;
+        display: inline-block;
+        font-size: 13px;
+        cursor: pointer;
+        border-radius: 50px;
+        width: 140px;
+        height: 48px;
+        font-family: source-sans-pro, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        margin-top: 20px;
+    }
+    
+    .signupbtn1:hover {
+        background-color: #3578b4;}
+
+        .signupbtn { 
+            background-color: #f89a35;
+            color: white;
+            border-style:solid;
+            text-align: center;
+            text-transform: uppercase;
+            display: inline-block;
+            font-size: 13px;
+            cursor: pointer;
+            border-radius: 50px;
+            width: 140px;
+            height: 48px;
+            margin-bottom: 70px;
+            font-family: source-sans-pro, sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            margin-top: 30px;
+        }
+        .signupbtn:hover {
+            background-color: #f8bf34;
+        }
+
+        .loginbtn1{
+            border-color: #3578b4;
+            border-style:solid;
+            text-align: center;
+            text-transform: uppercase;
+            display: inline-block;
+            font-size: 13px;
+            cursor: pointer;
+            border-radius: 50px;
+            width: 140px;
+            height: 48px;
+            margin-bottom: 100px;
+            font-family: source-sans-pro, sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            margin-top: 25px;
+        }
+        .loginbtn1:hover {
+            background-color: #3578b4;
+        }
+        .loginbtn {
+        background-color: #f89a35;
+            color: white;
+            border-style:solid;
+            text-align: center;
+            text-transform: uppercase;
+            display: inline-block;
+            font-size: 13px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 50px;
+            width: 140px;
+            height: 48px;
+            margin-top: 30px;
+            font-family: source-sans-pro, sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+        .loginbtn:hover {
+            background-color: #f8bf34;}
+    .for-login{
+        height: 440px;
+        width: 440px;
+        justify-self: right;
+        text-align: left;
+        padding-left: 80px;
+      
+    
+    }
+    
+    label{
+        font-size: 16px;
+        font-family: source-sans-pro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+
+    }
+    .logo{
+        position: absolute;
+        right: 85px;
+        
+    }
+header {
+    display: grid;
+    grid-area: header;   
+}
+footer{
+    display: grid;
+    grid-area: footer;
+        justify-self: center;
+        text-transform: uppercase;
+        margin-top: 125px;
+    }
+    .reserved{
+        color: #a7b3cb;
+        font-family: source-sans-pro, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        position: sticky;
+    }
+.content {
+    position: relative;
+    height: 416px;
+    width: 920px;
+    background-color: rgba(45, 60, 77, 83%);
+    display: grid;
+    justify-self: center;
+    margin: 30px;
+}
+   
+  .sign-up {
+      position: absolute;
+      height: 460px;
+      width: 460px;
+      background-color: #ffffff;
+      top: -21px;
+      color: #8495b7;
+      padding-left: 90px; 
+      text-align: left;
+      
+  }
+    
+    
+  .login {
+    position: relative;
+    height: 460px;
+    width: 460px;
+    background-color: #ffffff;
+    top: -21px;
+    color: #8495b7;
+    text-align: left;
+    padding-left: 90px;
+   
+  }
+  h3 {
+      margin-top: 100px;
+      font-size:  28px;
+      font-family: source-sans-pro, sans-serif;
+      font-weight: 300;
+      font-style: normal;
+  }
+  p {
+      font-size: 16px;
+      font-family: source-sans-pro, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      line-height: 1.6;
+  }
+ #title { 
+     margin-top: 60px;
+    font-size:  28px;
+    font-family: source-sans-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;}
+
+  input{
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #8495b7;
+    color:black;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    width: 75%;
+  }
+  hr{
+   
+    width: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #3578b4; 
+    height: 2px; 
+    border: 0;
+  }
+
+
+.input-icon {
+    position: relative;
+    margin-top: -30px;
+    margin-left: 262px;
+    
+  }
+  
+  .test-input {
+    padding-left: 20px;
+  }
+  
+  /*.test-input:focus + .input-icon {
+    background-color: #3578b4;
+  }*/
+
+  #triangle-topright {
+    width: 0;
+    height: 0;
+    border-top: 20px solid #82d2f1;
+    border-left: 8px solid transparent;
+    margin-left: -98px;
+    margin-top: 38px; 
+  }
+  
+  #triangle-bottomright {
+    width: 0;
+    height: 0;
+    border-bottom: 20px solid #82d2f1;
+    border-left: 8px solid transparent;
+    margin-left: -98px;
+    margin-top: 1px;
+    z-index: -1;
+}
+
+
+  #square {
+      position: absolute;
+    width: 8px;
+    height: 416px;
+    background: #20293a;
+    z-index: -1;
+    margin-left: -98px;
+    
+  }
+
+ 
+  
+ #slider{
+     height: 460px;
+     position: absolute;
+     right: 20px;
+ } 
+
