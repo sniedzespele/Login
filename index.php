@@ -68,7 +68,6 @@ require_once 'head.php';
                     </form>
                     <div id="triangle-topright"></div>
                 </div>
-
             </div>
         </div>
     </div>
