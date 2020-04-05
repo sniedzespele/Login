@@ -18,6 +18,8 @@ require_once 'head.php';
                 </div>
                 <div id="slider">
                     <div class="sign-up" id="foo2">
+                    <div id="triangle-bottomright"></div>
+                        <div id="square"></div>
                         <h3 id="title">Sign Up<img src="styles/img/logo.jpg" class="logo" alt="logo">
                         </h3>
                         <hr>
@@ -35,11 +37,12 @@ require_once 'head.php';
                         <br>
                         <label for="psw">Password<span style="color:red">*</span></label>
                         <br>
-                        <input class="test-input" type="text" name="password" required />
+                        <input class="test-input" type="password" name="password" required />
                         <div class="input-icon"><img src="styles/img/lock.jpg" class="profil"></div>
                         <br>
                         <button type="submit" class="signupbtn">Sign Up</button>
 </form>
+                        <div id="triangle-topright2"></div>
                     </div>
                     <div class="login" id="foo">
                         <div id="triangle-bottomright"></div>
@@ -55,16 +58,16 @@ require_once 'head.php';
                         <br>
                         <label for= 'psw'>Password<span style='color:red'>*</span></label>
                         <br>
-                        <input class='test-input' type='text' name='password' required />
+                        <input class='test-input' type="password" name="password" required />
                         <div class='input-icon'><img src='styles/img/lock.jpg' class='profil'></div>
                         <br>
                         <button type='submit' class='loginbtn'>Log in</button>
-
 </form>
                         <div id="triangle-topright"></div>
                     </div>
 
                 </div>
+            </div>
             </div>
         <?php
         require_once 'footer.php';

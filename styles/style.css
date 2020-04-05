@@ -7,6 +7,8 @@ body {
     background-image: url('img/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    
+    
 }
     .all {
         display: grid;
@@ -75,11 +77,10 @@ body {
             border-radius: 50px;
             width: 140px;
             height: 48px;
-            margin-bottom: 70px;
             font-family: source-sans-pro, sans-serif;
             font-weight: 700;
             font-style: normal;
-            margin-top: 30px;
+            
         }
         .signupbtn:hover {
             background-color: #f8bf34;
@@ -124,7 +125,33 @@ body {
             font-style: normal;
         }
         .loginbtn:hover {
-            background-color: #f8bf34;}
+        background-color: #f8bf34;}
+
+
+            .addbtn {
+                position: absolute;
+                right: 5px;
+                background-color: #f89a35;
+                color: white;
+                border-style:solid;
+                text-transform: uppercase;
+                display: inline-block;
+                font-size: 13px;
+                cursor: pointer;
+                border-radius: 50px;
+                width: 100px;
+                height: 35px;
+                font-family: source-sans-pro, sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                margin-top: 20px;
+                margin-bottom: 40px;
+                
+            }  
+                .addbtn:hover {
+                    background-color: #f8bf34;
+                }
+        
     .for-login{
         height: 440px;
         width: 440px;
@@ -140,6 +167,7 @@ body {
         font-family: source-sans-pro, sans-serif;
         font-weight: 400;
         font-style: normal;
+        color:  #8495b7;
 
 
     }
@@ -155,17 +183,33 @@ header {
 footer{
     display: grid;
     grid-area: footer;
-        justify-self: center;
         text-transform: uppercase;
-        margin-top: 125px;
+
+        left: 0;
+        bottom: 60px;
+        width: 100%;
     }
     .reserved{
         color: #a7b3cb;
         font-family: source-sans-pro, sans-serif;
         font-weight: 700;
         font-style: normal;
-        position: sticky;
+        text-align: center;
     }
+    .footerdiv{
+     
+            position: absolute;
+            width: 100%;
+            height: 2.5rem; 
+            color: #a7b3cb;
+            font-family: source-sans-pro, sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            text-align: center;
+            
+                
+    }
+    
 .content {
     position: relative;
     height: 416px;
@@ -263,9 +307,17 @@ footer{
     border-top: 20px solid #82d2f1;
     border-left: 8px solid transparent;
     margin-left: -98px;
-    margin-top: 38px; 
+       margin-top: 38px;
   }
-  
+ 
+  #triangle-topright2 {
+    width: 0;
+    height: 0;
+    border-top: 20px solid #82d2f1;
+    border-left: 8px solid transparent;
+    margin-left: -98px;
+    margin-top: 12px; 
+  }
   #triangle-bottomright {
     width: 0;
     height: 0;
@@ -287,11 +339,95 @@ footer{
     
   }
 
- 
   
  #slider{
      height: 460px;
      position: absolute;
      right: 20px;
  } 
+ .content2 {
+        position: relative;
+        background-color: rgba(45, 60, 77, 83%);
+        display: grid;
+        justify-self: center;
+        margin: 30px;
+        min-height: 100vh;
+ }
+ .heading{
+	margin: 30px auto;
+	text-align: center;
+    font-family: source-sans-pro, sans-serif;
+}
+h2 {
+    color:  #8495b7;
+    
+}
+h4 {
+    color:  #8495b7;
+    margin-left: 40px;
+    
+}
+.whitebg {
+    position: relative;
+    margin: auto;
+    width: 70%;
+    background: #ffffff;
+    margin-top: 30px;
+    font-family: source-sans-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 30px;
+}
+#add {
+    position: relative;
+	width: 70%; 
+	margin: auto;  
+	padding: 10px;
+	background: white;
+}
+form p {
+	color: red;
+	margin: 0px;
+}
+.task_input {
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #8495b7;
+    color: black;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    width: 90%;
+}
+
+
+table {
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+
+
+th {
+    font-size: 19px;
+    color:  #8495b7;
+	
+}
+
+th, td{
+	border: none;
+    height: 50px;
+    padding: 5px;
+}
+
+tr:hover {
+	background: #E9E9E9;
+}
+
+.task {
+	text-align: left;
+}
+
+
 
