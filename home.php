@@ -22,80 +22,82 @@ if(!isset($_SESSION['username'])){
     header('index.php');
 } 
 ?>
-<!DOCTYPE html>
-<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Magebit</title>
-    <script src="styles/script.js" defer></script>
-    <link href="styles/style.css?version=51" rel="stylesheet" type="text/css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Magebit</title>
+        <script src="styles/script.js" defer></script>
+        <link href="styles/style.css?version=51" rel="stylesheet" type="text/css">
 
-</head>
+    </head>
 
-<body>
-    
+    <body>
+
         <header></header>
         <div class=content2>
-            <div class= "whitebg">
-<div class="heading">
-		<h2>Here you can add information about yourself</h2>
-	</div>
-	<form id="add" method="post" action="home.php" class="input_form">
-    <?php if (isset($errors)) { ?>
-	<p><?php echo $errors; ?></p>
-<?php } ?>
-    <label for="email">Statement<span style="color:red">*</span></label>
-    <br>
-        <input type="text" name="task" class="task_input">
-        <br>
-        <br>
-        <label for="email">Answer<span style="color:red" class=ls>*</span></label>
-        <br>
-        <input type="text" name="task" class="task_input">
-        <br>
-		<button type="submit" name="submit" id="add_btn" class="addbtn">Add it</button>
-    </form>
-    <br>
-    <br>
-    <br>
-    <div class=heading>
-    <h2>Personal information</h2>
-</div>
+            <div class="whitebg">
+                <div class="heading">
+                    <h2>Here you can add information about yourself</h2>
+                </div>
+                <form id="add" method="post" action="home.php" class="input_form">
+                    <?php if (isset($errors)) { ?>
+                        <p>
+                            <?php echo $errors; ?>
+                        </p>
+                        <?php } ?>
+                            <label for="email">Statement<span style="color:red">*</span></label>
+                            <br>
+                            <input type="text" name="task" class="task_input">
+                            <br>
+                            <br>
+                            <label for="email">Answer<span style="color:red" class=ls>*</span></label>
+                            <br>
+                            <input type="text" name="task" class="task_input">
+                            <br>
+                            <button type="submit" name="submit" id="add_btn" class="addbtn">Add it</button>
+                </form>
+                <br>
+                <br>
+                <br>
+                <div class=heading>
+                    <h2>Personal information</h2>
+                </div>
 
-<table style="width:90%">
-  <tr>
-    <th>Statement</th>
-    <th>Answer</th> 
-  </tr>
-  <br>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
-    </div>
-</div>
-</div>
-    <footer>
+                <table style="width:90%">
+                    <tr>
+                        <th>Statement</th>
+                        <th>Answer</th>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        </div>
+        <footer>
             <div class="footerdiv">
                 <p>All Rights Reserved “Magebit” 2016</p>
             </div>
         </footer>
-    </div>
-    </div>
-</body>
+        </div>
+        </div>
+    </body>
 
-</html>
+    </html>
