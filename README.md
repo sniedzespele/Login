@@ -1,2 +1,2 @@
-# Web-Developer-Vacancy-Test-Task
+Test-Task
  login/registration page from PSD
