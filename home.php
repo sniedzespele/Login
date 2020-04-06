@@ -8,7 +8,7 @@
     // insert a quote if submit button is clicked
     if (isset($_POST['submit'])) {
         if (empty($_POST['task'])) {
-            $errors = "You must fill in the task";
+            $errors = "Please fill in all fields!";
         }else{
             $task = $_POST['task'];
             $sql = "INSERT INTO tasks (task) VALUES ('$task')";
@@ -48,12 +48,12 @@ if(!isset($_SESSION['username'])){
                             <?php echo $errors; ?>
                         </p>
                         <?php } ?>
-                            <label for="email">Statement<span style="color:red">*</span></label>
+                            <label for="statement">Statement<span style="color:red">*</span></label>
                             <br>
                             <input type="text" name="task" class="task_input">
                             <br>
                             <br>
-                            <label for="email">Answer<span style="color:red" class=ls>*</span></label>
+                            <label for="answer">Answer<span style="color:red" class=ls>*</span></label>
                             <br>
                             <input type="text" name="task" class="task_input">
                             <br>
